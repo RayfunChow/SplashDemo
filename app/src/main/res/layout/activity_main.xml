@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!--  线性布局中的 android:orientation="vertical" 很重要，没有会重叠-->
+    <!--用户名输入框-->
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/usernameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="lucas"
+        android:hint="@string/usernameEditHint" />
+    <!--密码输入框-->
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/passwordEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="123456"
+        android:hint="@string/passwordEditHint"
+        android:inputType="textPassword" />
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loginBtn" />
+</android.support.v7.widget.LinearLayoutCompat>

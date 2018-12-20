@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SplashDemo</string>
+    <string name="simfyspider">SimfySpider</string>
+    <string name="usernameEditHint">请输入用户名</string>
+    <string name="passwordEditHint">请输入密码</string>
+    <string name="loginBtn">登陆</string>
+</resources>
